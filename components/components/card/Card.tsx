@@ -6,7 +6,7 @@ import gsap from "gsap";
 
 
 
-const Card = ({ title, i, colour, description,targetScale, image,range,progress }) => {
+const Card = ({  i, colour,targetScale, image,progress }:{i:number,colour:string,targetScale:number,image:string,progress:number}) => {
 
     const cardRef = useRef(null);
 

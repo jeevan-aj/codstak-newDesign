@@ -56,14 +56,11 @@ const StackCard = () => {
           return (
             <Card
           
-              title={cur?.title}
               key={idx}
               i={idx}
               colour={cur?.color}
-              description={cur?.description}
               image={cur?.src}
               targetScale={targetScale}
-              range={[idx * 0.25, 1]}
               progress={scrollProgress}
 
             />
